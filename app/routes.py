@@ -4,14 +4,14 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    user = {'username': 'João'}
+    user = {'username': 'Victor'}
     posts = [
         {
             'author': {'username': 'Maria'},
             'body': 'Beautiful day in Recife!'
         },
         {
-            'author': {'username': 'Victor'},
+            'author': {'username': 'João'},
             'body': 'The Avengers movie was so cool!'
         }
     ]
